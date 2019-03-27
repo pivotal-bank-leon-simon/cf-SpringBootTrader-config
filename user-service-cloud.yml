@@ -4,7 +4,7 @@ security:
       uaa:
         clientId: ${vcap.services.uaa-admin.credentials.client-id}
         clientSecret: ${vcap.services.uaa-admin.credentials.client-secret}
-        scope: zones.a5ffa627-ceeb-4a5c-8bdb-5cfb54ef4ac8.admin
+        scope: zones.e2d0a36d-5cea-4562-b3ff-4c8b5c797d75.admin
 targets:
   admin:
     uaa: https://login.sys.lab01.pcf.pw

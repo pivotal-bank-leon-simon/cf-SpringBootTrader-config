@@ -1,8 +1,8 @@
 targets:
   #uaa: ${vcap.services.pivotal-bank-sso.credentials.auth_domain}
-  uaa: https://pivotal-bank-sso-one.uaa.sys.lab01.pcf.pw
+  uaa: https://pivotal-bank-sso.uaa.sys.lab01.pcf.pw
 uaa:
-  identity-zone-id: pivotal-bank-sso-one
+  identity-zone-id: pivotal-bank-sso
 
 spring:
   security:
