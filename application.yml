@@ -45,6 +45,8 @@ spring:
             issuer-uri: ${targets.uaa}/oauth/token
   session:
     store-type: redis
+    timeout: 20m
+
 
 management:
   endpoints:
