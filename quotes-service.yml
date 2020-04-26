@@ -4,6 +4,6 @@ spring:
 pivotal:
   quotes:
     quote_url: https://cloud.iexapis.com/v1/stock/{symbol}/quote?token=pk_789f4f45c6ba4317a183a5e808348ea8
-    quotes_url: https://cloud.iexapis.com/v1/stock/market/batch?symbols={symbols}&types=quote&pk_789f4f45c6ba4317a183a5e808348ea8
+    quotes_url: https://cloud.iexapis.com/v1/stock/market/batch?symbols={symbols}&types=quote&token=pk_789f4f45c6ba4317a183a5e808348ea8
     symbols_url: https://cloud.iexapis.com/v1/ref-data/symbols?token=pk_789f4f45c6ba4317a183a5e808348ea8
 
